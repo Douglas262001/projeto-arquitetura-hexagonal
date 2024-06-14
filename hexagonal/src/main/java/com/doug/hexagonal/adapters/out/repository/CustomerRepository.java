@@ -1,0 +1,7 @@
+package com.doug.hexagonal.adapters.out.repository;
+
+import com.doug.hexagonal.adapters.out.repository.entity.CustumerEntity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface CustomerRepository extends MongoRepository<CustumerEntity, String> {
+}
