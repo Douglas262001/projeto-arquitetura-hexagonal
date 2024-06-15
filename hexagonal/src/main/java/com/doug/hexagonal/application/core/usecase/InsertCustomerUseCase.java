@@ -5,13 +5,13 @@ import com.doug.hexagonal.application.ports.in.InsertCustomerInputPort;
 import com.doug.hexagonal.application.ports.out.FindAddressByZipCodeOutputPort;
 import com.doug.hexagonal.application.ports.out.InsertCustomerOutputPort;
 
-public class InsertCostumerUseCase implements InsertCustomerInputPort {
+public class InsertCustomerUseCase implements InsertCustomerInputPort {
 
     private final FindAddressByZipCodeOutputPort findAddressByZipCodeOutputPort;
 
     private final InsertCustomerOutputPort insertCustomerOutputPort;
 
-    public InsertCostumerUseCase(FindAddressByZipCodeOutputPort findAddressByZipCodeOutputPort, InsertCustomerOutputPort insertCustomerOutputPort) {
+    public InsertCustomerUseCase(FindAddressByZipCodeOutputPort findAddressByZipCodeOutputPort, InsertCustomerOutputPort insertCustomerOutputPort) {
         this.findAddressByZipCodeOutputPort = findAddressByZipCodeOutputPort;
         this.insertCustomerOutputPort = insertCustomerOutputPort;
     }
