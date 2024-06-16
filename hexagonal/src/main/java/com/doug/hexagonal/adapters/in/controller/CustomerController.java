@@ -8,7 +8,7 @@ import com.doug.hexagonal.application.ports.in.DeleteCustomerByIdInputPort;
 import com.doug.hexagonal.application.ports.in.FindCustomerByIdInputPort;
 import com.doug.hexagonal.application.ports.in.InsertCustomerInputPort;
 import com.doug.hexagonal.application.ports.in.UpdateCustomerInputPort;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
